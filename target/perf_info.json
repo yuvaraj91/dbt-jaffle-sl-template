@@ -1,28 +1,18 @@
 {
     "path_count": 213,
-    "parsed_path_count": 1,
+    "parsed_path_count": 0,
     "static_analysis_path_count": 0,
     "static_analysis_parsed_path_count": 0,
     "is_partial_parse_enabled": true,
     "is_static_analysis_enabled": true,
-    "read_files_elapsed": 0.02749850001418963,
-    "load_macros_elapsed": 0.00047324999468401074,
-    "parse_project_elapsed": 0.014612915983889252,
-    "patch_sources_elapsed": 9.750016033649445e-06,
-    "process_manifest_elapsed": 0.004401082987897098,
-    "load_all_elapsed": 0.0769039589795284,
+    "read_files_elapsed": 0.22833619639277458,
+    "load_all_elapsed": 0.2890612855553627,
     "projects": [
         {
             "project_name": "jaffle_shop",
-            "elapsed": 0.014534874993842095,
-            "parsers": [
-                {
-                    "parser": "test",
-                    "elapsed": 0.014530709013342857,
-                    "parsed_path_count": 1
-                }
-            ],
-            "parsed_path_count": 1
+            "elapsed": 0.0,
+            "parsers": [],
+            "parsed_path_count": 0
         },
         {
             "project_name": "dbt_snowflake",
