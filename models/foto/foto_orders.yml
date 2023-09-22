@@ -48,9 +48,6 @@ semantic_models:
       - name: order_count
         expr: 1
         agg: sum
-      - name: tax_paid
-        description: the total tax paid on each order.
-        agg: sum
       - name: photographers_with_orders
         description: distinct count of photographers placing orders
         agg: count_distinct
