@@ -76,3 +76,14 @@ metrics:
     type: simple
     type_params:
       measure: order_count
+  - name: aov_eur
+    description: AOV in EUR
+    type: derived
+    label: AOV in EUR
+    type_params:
+      expr: value / orders
+      metrics:
+        - name: sum_total_eur
+          alias: value
+        - name: count_orders
+          alias: orders
